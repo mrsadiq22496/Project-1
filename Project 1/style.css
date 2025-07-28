@@ -157,6 +157,83 @@ h3{
     border: 1.5px solid black;
     border-radius: 50px;
 }
-#nav-part2 h1{
-    font-family: machina;
+@media (max-width: 600px)  {
+    #main{
+        width: 100%;
+        height: 100%;
+        /* background-color: yellow; */
+    }
+    #main h1{
+        font-size: 5vh
+    }
+    #main img{
+        width: 50vw;
+        height: 100vw;
+    }
+    #img1{
+        transform: translate(-50%, -50%) rotate(-20deg);
+    }
+    #img2{
+        transform: translate(-50%, -50%) rotate(-14deg);
+    }
+    #img3{
+        transform: translate(-50%, -50%) rotate(-7deg);
+    }
+    #nav{
+        height: 50px;
+        width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    /* border: 1.5px solid black; */
+    }
+    #nav-part1{
+        /* background-color: lightseagreen;; */
+        padding: 5px 10px;
+        margin: 0px;
+        padding-left: 0px;
+    }
+    #nav-part1 h3{
+        font-size: 2.5vw;
+        font-weight: 600;
+    }
+    #nav-part1 i{
+        font-size: 2.5vw;
+    }
+    #nav-part2 h1{
+        font-size: 5vw;
+    }
+    #nav-part3 button{
+        padding: 5px 5px;
+        font-size: 2.5vw;;
+    }
+    #btm-left{
+        font-size: 2vw;
+    }
+    #btm-right{
+        font-size: 2vw;
+    }
+    #insta{
+    position: absolute;
+    bottom: 7%;
+    right: 20%;
+    font-size: 17px;
+    border: none;
+    }
+    #fb{
+    position: absolute;
+    bottom: 7%;
+    right: 14%;
+    font-size: 17px;
+    border: none;
+    }
+    #yt{
+    position: absolute;
+    bottom: 7%;
+    right: 8%;
+    font-size: 17px;
+    border: none;
+    }
 }
